@@ -11,7 +11,6 @@ function wordcount(sentence)
     for elem in splitStr
 
         elem = strip(elem, ''')
-        print(elem)
 
         if elem == "'" || elem == "," || elem == "\n" || elem == "\t" || elem == ""
             continue
